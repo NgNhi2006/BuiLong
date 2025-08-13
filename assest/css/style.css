@@ -262,9 +262,10 @@ body {
     position: relative;
 }
 .play-button {
-    width: 120px;
-    height: 40px;
-    white-space: nowrap;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX();
 }
 
 .music-grid {

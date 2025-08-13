@@ -261,12 +261,6 @@ body {
     background: linear-gradient(135deg, #f2f5fa 0%, #e79ac6 100%);
     position: relative;
 }
-.play-button {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX();
-}
 
 .music-grid {
     display: grid;

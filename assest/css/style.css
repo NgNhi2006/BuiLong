@@ -38,7 +38,7 @@ body {
 }
 
 .logo h1 {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    background: linear-gradient(45deg, #4fd956, #b68447);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -101,9 +101,10 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #f2f5fa 0%, #e79ac6 100%);
     overflow: hidden;
-}
+}   
+
 
 .hero-bg {
     position: absolute;
@@ -194,7 +195,7 @@ body {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    background: linear-gradient(45deg, #f2f5fa, #7eb4b0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -203,7 +204,7 @@ body {
 /* About Section */
 .about {
     padding: 100px 0;
-    background: #111;
+    background: #333; 
 }
 
 .about-content {
@@ -257,8 +258,13 @@ body {
 /* Music Section */
 .music {
     padding: 100px 0;
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #f2f5fa 0%, #e79ac6 100%);
     position: relative;
+}
+.play-button {
+    width: 120px;
+    height: 40px;
+    white-space: nowrap;
 }
 
 .music-grid {
@@ -372,7 +378,7 @@ body {
 /* Contact Section */
 .contact {
     padding: 100px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #f2f5fa 0%, #764ba2 100%);
 }
 
 .contact-content {
